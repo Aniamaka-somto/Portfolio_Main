@@ -1,5 +1,12 @@
 import { SkillCard } from "./SkillCard";
 import figma from "/src/assets/figma.svg";
+import CSS from "/src/assets/css3.svg";
+import Nextjs from "/src/assets/Nextjs.svg";
+import NodeJS from "/src/assets/nodejs.svg";
+import ExpressJS from "/src/assets/expressjs.svg";
+import MongoDB from "/src/assets/mongodb.svg";
+import Reactimg from "/src/assets/react.svg";
+import TailwindCSS from "/src/assets/tailwindcss.svg";
 const Skills = () => {
   const skillItem = [
     {
@@ -8,38 +15,38 @@ const Skills = () => {
       desc: "Design tool",
     },
     {
-      imgSrc: "/src/assets/css3.svg",
+      imgSrc: CSS,
       label: "CSS",
       desc: "User Interface",
     },
     {
       imgSrc: "/src/assets/javascript.svg",
-      label: "JavaScript",
+      label: Nextjs,
       desc: "Interaction",
     },
     {
       imgSrc: "/src/assets/nodejs.svg",
-      label: "NodeJS",
+      label: NodeJS,
       desc: "Web Server",
     },
     {
       imgSrc: "/src/assets/expressjs.svg",
-      label: "ExpressJS",
+      label: ExpressJS,
       desc: "Node Framework",
     },
     {
       imgSrc: "/src/assets/mongodb.svg",
-      label: "MongoDB",
+      label: MongoDB,
       desc: "Database",
     },
     {
       imgSrc: "/src/assets/react.svg",
-      label: "React",
+      label: Reactimg,
       desc: "Framework",
     },
     {
       imgSrc: "/src/assets/tailwindcss.svg",
-      label: "TailwindCSS",
+      label: TailwindCSS,
       desc: "User Interface",
     },
   ];
