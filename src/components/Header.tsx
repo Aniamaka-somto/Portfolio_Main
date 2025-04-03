@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         </h1>
         <div className="relative md:justify-self-center">
           <button
-            className="menu-btn md:hidden"
+            className="md:hidden menu-btn"
             onClick={() => setNavOpen((prev) => !prev)}
           >
             <span className="material-symbols-rounded">
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
         </div>
         <a
           href="#contact"
-          className="btn btn-secondary max-md:hidden md:justify-self-end"
+          className="btn btn-secondary hidden md:justify-self-end"
         >
           Contact Me
         </a>
