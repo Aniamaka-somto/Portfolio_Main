@@ -22,7 +22,7 @@ const Skills = () => {
     {
       imgSrc: Nextjs,
       label: "Nextjs",
-      desc: "Interaction",
+      desc: "Framework",
     },
     {
       imgSrc: NodeJS,
