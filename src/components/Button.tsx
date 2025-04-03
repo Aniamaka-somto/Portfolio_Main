@@ -1,5 +1,3 @@
-import React from "react";
-
 const ButtonPrimary = ({
   href,
   target = "self",

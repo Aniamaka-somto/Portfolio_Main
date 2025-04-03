@@ -1,4 +1,3 @@
-import React from "react";
 import { SkillCard } from "./SkillCard";
 import figma from "/src/assets/figma.svg";
 const Skills = () => {
