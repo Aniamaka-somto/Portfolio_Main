@@ -3,7 +3,6 @@ import NavBar from "./Navbar";
 
 const Header: React.FC = () => {
   const [navOpen, setNavOpen] = useState(false);
-
   return (
     <header
       className="fixed top-0 left-0 w-full h-20 flex
@@ -23,7 +22,7 @@ const Header: React.FC = () => {
         </h1>
         <div className="relative md:justify-self-center">
           <button
-            className="md:hidden menu-btn"
+            className="menu-btn md:hidden"
             onClick={() => setNavOpen((prev) => !prev)}
           >
             <span className="material-symbols-rounded">
@@ -34,7 +33,7 @@ const Header: React.FC = () => {
         </div>
         <a
           href="#contact"
-          className="btn btn-secondary hidden md:justify-self-end"
+          className="btn btn-secondary max-md:hidden md:justify-self-end"
         >
           Contact Me
         </a>

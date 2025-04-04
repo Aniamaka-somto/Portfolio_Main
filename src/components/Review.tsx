@@ -1,3 +1,4 @@
+import Marquee from "react-fast-marquee";
 import ReviewCard from "./ReviewCard";
 import people1 from "/src/assets/people-1.jpg";
 import people2 from "/src/assets/people-2.jpg";
@@ -55,17 +56,19 @@ const Review = () => {
     <section id="reviews" className="section overflow-hidden">
       <div className="container">
         <h2 className="headline-2 mb-8">What clients say about our work</h2>
-        <div className="flex items-stretch gap-3 w-fit scrub-slide">
-          {reviews.map(({ content, name, company, imgSrc }, key) => (
-            <ReviewCard
-              name={name}
-              reviews={content}
-              company={company}
-              img={imgSrc}
-              key={key}
-            />
-          ))}
-        </div>
+        <Marquee>
+          <div className="flex items-stretch gap-3 w-fit scrub-slide">
+            {reviews.map(({ content, name, company, imgSrc }, key) => (
+              <ReviewCard
+                name={name}
+                reviews={content}
+                company={company}
+                img={imgSrc}
+                key={key}
+              />
+            ))}
+          </div>
+        </Marquee>
       </div>
     </section>
   );
