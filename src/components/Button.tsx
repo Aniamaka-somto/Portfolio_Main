@@ -1,6 +1,6 @@
 const ButtonPrimary = ({
   href,
-  target = "self",
+  target = "_self",
   label,
   icon,
   classes,
@@ -38,7 +38,7 @@ const ButtonPrimary = ({
 
 const ButtonOutline = ({
   href,
-  target = "self",
+  target = "_self",
   label,
   icon,
   classes,
